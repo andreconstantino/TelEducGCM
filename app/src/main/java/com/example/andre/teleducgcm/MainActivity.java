@@ -164,7 +164,7 @@ public class MainActivity extends Activity {
         final SharedPreferences prefs = getGCMPreferences(context);
         String registrationId = prefs.getString(PROPERTY_REG_ID, "");
         if (registrationId.isEmpty()) {
-            Log.i(TAG, "Registration not found.");
+            Log.i(TAG, "Registro não encontrado.");
             return "";
         }
         // Check if app was updated; if so, it must clear the registration ID
